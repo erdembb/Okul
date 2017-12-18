@@ -37,7 +37,6 @@ class Okul:
                 for elem in cList:
                     print(elem)
                 return x in cList[::][-1]
-
             elif x.isdigit() == 1 and (x > "4" or x < "1"):
                 print("1-4 aralığında değer giriniz")
                 return "1-4 aralığında değer giriniz"
@@ -54,8 +53,6 @@ class Okul:
             else:
                 print("Geçersiz argüman girişi")
                 return "Geçersiz argüman girişi"
-
-
     oku("okul.csv")
     tekil_kont()
     #arg_gir(str(input()))
